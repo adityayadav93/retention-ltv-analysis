@@ -32,7 +32,7 @@ This project builds that view and turns it into three prioritised, quantified ac
 | Move 20% of 2025 paid-social spend ($322K) to referral | **+$1.0M** net lifetime gross profit, even if referral converts at half its historical efficiency |
 | Win back at-risk accounts | Saving 20% protects ~**$116K** of annual revenue |
 
-> These are observational estimates. The first action should be validated with a randomised pilot before full roll-out, which is exactly the experiment design covered in the companion project, [`ab-testing-attribution`](https://github.com/adityayadavwork/ab-testing-attribution).
+> These are observational estimates. The first action should be validated with a randomised pilot before full roll-out, which is exactly the experiment design covered in the companion project, [`ab-testing-attribution`](https://github.com/adityayadav93/ab-testing-attribution).
 
 ## 3. Interactive dashboard
 
