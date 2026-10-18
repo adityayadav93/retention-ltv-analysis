@@ -1,0 +1,304 @@
+{
+  "snapshot_month": "2025-12-01",
+  "mrr": 1103797.0,
+  "arr": 13245564.0,
+  "active_customers": 6203,
+  "arpa": 177.95,
+  "mrr_growth_12m_pct": 141.7,
+  "avg_logo_churn_pct_6m": 4.58,
+  "avg_nrr_pct_6m": 98.7,
+  "churned_mrr_6m": 160385.0,
+  "retention_m3_pct": 77.9,
+  "retention_m6_pct": 68.4,
+  "retention_m12_pct": 55.8,
+  "unit_economics": [
+    {
+      "channel": "referral",
+      "customers_acquired": 1791,
+      "total_spend": 783261.0,
+      "cac": 437.33,
+      "arpa": 170.3,
+      "monthly_churn_pct": 3.71,
+      "ltv": 3677.0,
+      "ltv_to_cac": 8.41,
+      "cac_payback_months": 3.2
+    },
+    {
+      "channel": "organic_search",
+      "customers_acquired": 2400,
+      "total_spend": 970816.0,
+      "cac": 404.51,
+      "arpa": 145.05,
+      "monthly_churn_pct": 4.86,
+      "ltv": 2390.0,
+      "ltv_to_cac": 5.91,
+      "cac_payback_months": 3.5
+    },
+    {
+      "channel": "outbound",
+      "customers_acquired": 970,
+      "total_spend": 2874058.0,
+      "cac": 2962.95,
+      "arpa": 335.94,
+      "monthly_churn_pct": 3.07,
+      "ltv": 8747.0,
+      "ltv_to_cac": 2.95,
+      "cac_payback_months": 11.0
+    },
+    {
+      "channel": "paid_search",
+      "customers_acquired": 2376,
+      "total_spend": 2160179.0,
+      "cac": 909.17,
+      "arpa": 131.64,
+      "monthly_churn_pct": 5.62,
+      "ltv": 1874.0,
+      "ltv_to_cac": 2.06,
+      "cac_payback_months": 8.6
+    },
+    {
+      "channel": "paid_social",
+      "customers_acquired": 2256,
+      "total_spend": 2668304.0,
+      "cac": 1182.76,
+      "arpa": 118.32,
+      "monthly_churn_pct": 7.33,
+      "ltv": 1292.0,
+      "ltv_to_cac": 1.09,
+      "cac_payback_months": 12.5
+    }
+  ],
+  "plan_economics": [
+    {
+      "plan_at_signup": "Enterprise",
+      "customers": 935,
+      "arpa": 478.99,
+      "monthly_churn_pct": 2.05,
+      "ltv": 18693.0
+    },
+    {
+      "plan_at_signup": "Growth",
+      "customers": 3245,
+      "arpa": 189.85,
+      "monthly_churn_pct": 4.01,
+      "ltv": 3788.0
+    },
+    {
+      "plan_at_signup": "Starter",
+      "customers": 5075,
+      "arpa": 67.23,
+      "monthly_churn_pct": 6.64,
+      "ltv": 810.0
+    }
+  ],
+  "blended_cac": 966.0,
+  "rfm": [
+    {
+      "segment": "Champions",
+      "customers": 1471,
+      "mrr": 436429.0,
+      "avg_recency_days": 8.9,
+      "avg_logins_3m": 91.5,
+      "pct_of_mrr": 39.5
+    },
+    {
+      "segment": "Loyal",
+      "customers": 2281,
+      "mrr": 444369.0,
+      "avg_recency_days": 15.3,
+      "avg_logins_3m": 58.5,
+      "pct_of_mrr": 40.3
+    },
+    {
+      "segment": "Needs attention",
+      "customers": 940,
+      "mrr": 104710.0,
+      "avg_recency_days": 18.9,
+      "avg_logins_3m": 32.8,
+      "pct_of_mrr": 9.5
+    },
+    {
+      "segment": "At risk (high value)",
+      "customers": 524,
+      "mrr": 48226.0,
+      "avg_recency_days": 25.0,
+      "avg_logins_3m": 26.8,
+      "pct_of_mrr": 4.4
+    },
+    {
+      "segment": "Hibernating",
+      "customers": 987,
+      "mrr": 70063.0,
+      "avg_recency_days": 23.9,
+      "avg_logins_3m": 19.4,
+      "pct_of_mrr": 6.3
+    }
+  ],
+  "at_risk_mrr": 48226.0,
+  "at_risk_customers": 524,
+  "at_risk_pct_mrr": 4.4,
+  "churn6m_fast": 12.5,
+  "churn6m_slow": 38.0,
+  "rr_onboarding": 3.05,
+  "rr_lo": 2.66,
+  "rr_hi": 3.49,
+  "pct_fast_onboarding": 23.5,
+  "churn6m_overall": 32.0,
+  "n_model": 6787,
+  "auc_logit": 0.757,
+  "odds_ratios": [
+    {
+      "feature": "logins_m1_log",
+      "odds_ratio": 0.796,
+      "ci_low": 0.718,
+      "ci_high": 0.882,
+      "p": 0.0
+    },
+    {
+      "feature": "features_m1",
+      "odds_ratio": 0.969,
+      "ci_low": 0.9,
+      "ci_high": 1.043,
+      "p": 0.408
+    },
+    {
+      "feature": "onboarding_bucket_15+ days",
+      "odds_ratio": 1.932,
+      "ci_low": 1.594,
+      "ci_high": 2.341,
+      "p": 0.0
+    },
+    {
+      "feature": "onboarding_bucket_Never completed",
+      "odds_ratio": 2.951,
+      "ci_low": 2.521,
+      "ci_high": 3.454,
+      "p": 0.0
+    },
+    {
+      "feature": "onboarding_bucket_Within 3 days",
+      "odds_ratio": 0.398,
+      "ci_low": 0.328,
+      "ci_high": 0.485,
+      "p": 0.0
+    },
+    {
+      "feature": "plan_at_signup_Enterprise",
+      "odds_ratio": 0.425,
+      "ci_low": 0.29,
+      "ci_high": 0.622,
+      "p": 0.0
+    },
+    {
+      "feature": "plan_at_signup_Growth",
+      "odds_ratio": 0.671,
+      "ci_low": 0.566,
+      "ci_high": 0.795,
+      "p": 0.0
+    },
+    {
+      "feature": "acquisition_channel_organic_search",
+      "odds_ratio": 0.802,
+      "ci_low": 0.669,
+      "ci_high": 0.961,
+      "p": 0.017
+    },
+    {
+      "feature": "acquisition_channel_outbound",
+      "odds_ratio": 0.844,
+      "ci_low": 0.634,
+      "ci_high": 1.124,
+      "p": 0.246
+    },
+    {
+      "feature": "acquisition_channel_paid_social",
+      "odds_ratio": 1.405,
+      "ci_low": 1.177,
+      "ci_high": 1.678,
+      "p": 0.0
+    },
+    {
+      "feature": "acquisition_channel_referral",
+      "odds_ratio": 0.655,
+      "ci_low": 0.534,
+      "ci_high": 0.805,
+      "p": 0.0
+    },
+    {
+      "feature": "region_APAC",
+      "odds_ratio": 1.056,
+      "ci_low": 0.882,
+      "ci_high": 1.263,
+      "p": 0.555
+    },
+    {
+      "feature": "region_EMEA",
+      "odds_ratio": 0.974,
+      "ci_low": 0.837,
+      "ci_high": 1.135,
+      "p": 0.739
+    },
+    {
+      "feature": "region_LATAM",
+      "odds_ratio": 1.06,
+      "ci_low": 0.831,
+      "ci_high": 1.352,
+      "p": 0.639
+    }
+  ],
+  "auc_rf": 0.753,
+  "top_decile_lift": 2.13,
+  "feature_importance": {
+    "Onboarding speed": 0.1641,
+    "Plan at signup": 0.0171,
+    "Month-1 logins": 0.0143,
+    "Acquisition channel": 0.0106,
+    "Region": 0.0004,
+    "Month-1 features used": -0.0009
+  },
+  "onboarding_scenario": {
+    "assumptions": {
+      "share_converted": 0.25,
+      "cost_per_enrolled": 40.0,
+      "months_of_value": 12,
+      "gross_margin": 0.8,
+      "effect_haircut": 0.5
+    },
+    "delta_adjusted_pp": 23.7,
+    "delta_raw_pp": 25.5,
+    "signups_2025": 5837,
+    "share_not_fast": 76.5,
+    "enrolled": 1116,
+    "retained_customers": 132,
+    "arpa_new": 145.84,
+    "gross_profit_retained": 184923,
+    "program_cost": 44644,
+    "roi_multiple": 3.1,
+    "six_month_churn_reduction_pp": 2.3
+  },
+  "onboarding_sensitivity_k": {
+    "100% of est. effect": {
+      "15% enrolled": 195.0,
+      "25% enrolled": 325.0,
+      "40% enrolled": 520.0
+    },
+    "50% of est. effect": {
+      "15% enrolled": 84.0,
+      "25% enrolled": 140.0,
+      "40% enrolled": 224.0
+    },
+    "25% of est. effect": {
+      "15% enrolled": 29.0,
+      "25% enrolled": 48.0,
+      "40% enrolled": 77.0
+    }
+  },
+  "reallocation": {
+    "moved_spend": 321509,
+    "efficiency_haircut": 0.5,
+    "ltv_lost": 351204,
+    "ltv_gained": 1351598,
+    "net_ltv": 1000394
+  },
+  "at_risk_save_20pct_annual": 115742
+}

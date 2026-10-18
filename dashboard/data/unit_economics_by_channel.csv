@@ -1,0 +1,6 @@
+channel,customers_acquired,total_spend,cac,arpa,monthly_churn_pct,ltv,ltv_to_cac,cac_payback_months
+referral,1791,783261.0,437.33,170.3,3.71,3677.0,8.41,3.2
+organic_search,2400,970816.0,404.51,145.05,4.86,2390.0,5.91,3.5
+outbound,970,2874058.0,2962.95,335.94,3.07,8747.0,2.95,11.0
+paid_search,2376,2160179.0,909.17,131.64,5.62,1874.0,2.06,8.6
+paid_social,2256,2668304.0,1182.76,118.32,7.33,1292.0,1.09,12.5

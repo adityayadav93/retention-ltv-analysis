@@ -1,0 +1,5 @@
+data/raw/
+data/warehouse.duckdb
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

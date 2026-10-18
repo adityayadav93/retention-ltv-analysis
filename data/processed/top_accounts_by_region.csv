@@ -1,0 +1,54 @@
+customer_id,region,plan_at_signup,acquisition_channel,lifetime_revenue,last_billed_month,revenue_rank
+C00052,APAC,Enterprise,outbound,11976.0,2025-12-01,1
+C00081,APAC,Enterprise,organic_search,11976.0,2025-12-01,1
+C00165,APAC,Enterprise,paid_search,11976.0,2025-12-01,1
+C00242,APAC,Growth,referral,11626.0,2025-12-01,2
+C00490,APAC,Enterprise,outbound,11477.0,2025-12-01,3
+C00588,APAC,Enterprise,outbound,10978.0,2025-12-01,4
+C00424,APAC,Enterprise,outbound,10777.0,2025-12-01,5
+C00025,EMEA,Enterprise,outbound,11976.0,2025-12-01,1
+C00055,EMEA,Enterprise,referral,11976.0,2025-12-01,1
+C00131,EMEA,Enterprise,paid_search,11976.0,2025-12-01,1
+C00157,EMEA,Enterprise,outbound,11976.0,2025-12-01,1
+C00222,EMEA,Enterprise,outbound,11976.0,2025-12-01,1
+C00363,EMEA,Enterprise,outbound,11477.0,2025-12-01,2
+C00442,EMEA,Enterprise,outbound,11477.0,2025-12-01,2
+C00488,EMEA,Enterprise,referral,11477.0,2025-12-01,2
+C00496,EMEA,Enterprise,outbound,11477.0,2025-12-01,2
+C00526,EMEA,Enterprise,outbound,11477.0,2025-12-01,2
+C00212,EMEA,Growth,organic_search,11276.0,2025-12-01,3
+C00610,EMEA,Enterprise,outbound,10978.0,2025-12-01,4
+C00676,EMEA,Enterprise,referral,10978.0,2025-12-01,4
+C00371,EMEA,Growth,referral,10777.0,2025-12-01,5
+C00162,LATAM,Enterprise,paid_social,11976.0,2025-12-01,1
+C00339,LATAM,Enterprise,outbound,11477.0,2025-12-01,2
+C00396,LATAM,Enterprise,referral,11477.0,2025-12-01,2
+C00967,LATAM,Enterprise,referral,10479.0,2025-12-01,3
+C01128,LATAM,Growth,paid_search,10129.0,2025-12-01,4
+C01185,LATAM,Enterprise,outbound,9980.0,2025-12-01,5
+C01211,LATAM,Enterprise,paid_social,9980.0,2025-12-01,5
+C01485,LATAM,Enterprise,outbound,9980.0,2025-12-01,5
+C00046,North America,Enterprise,referral,11976.0,2025-12-01,1
+C00061,North America,Enterprise,referral,11976.0,2025-12-01,1
+C00076,North America,Enterprise,referral,11976.0,2025-12-01,1
+C00190,North America,Enterprise,outbound,11976.0,2025-12-01,1
+C00251,North America,Enterprise,organic_search,11976.0,2025-12-01,1
+C00121,North America,Growth,paid_search,11626.0,2025-12-01,2
+C00306,North America,Enterprise,outbound,11477.0,2025-12-01,3
+C00314,North America,Enterprise,paid_search,11477.0,2025-12-01,3
+C00353,North America,Enterprise,outbound,11477.0,2025-12-01,3
+C00404,North America,Enterprise,paid_social,11477.0,2025-12-01,3
+C00407,North America,Enterprise,outbound,11477.0,2025-12-01,3
+C00426,North America,Enterprise,paid_social,11477.0,2025-12-01,3
+C00470,North America,Enterprise,organic_search,11477.0,2025-12-01,3
+C00506,North America,Enterprise,referral,11477.0,2025-12-01,3
+C00527,North America,Enterprise,referral,11477.0,2025-12-01,3
+C00540,North America,Enterprise,referral,11477.0,2025-12-01,3
+C00129,North America,Growth,paid_search,11276.0,2025-12-01,4
+C00571,North America,Enterprise,outbound,10978.0,2025-12-01,5
+C00589,North America,Enterprise,outbound,10978.0,2025-12-01,5
+C00640,North America,Enterprise,outbound,10978.0,2025-12-01,5
+C00680,North America,Enterprise,outbound,10978.0,2025-12-01,5
+C00707,North America,Enterprise,outbound,10978.0,2025-12-01,5
+C00736,North America,Enterprise,outbound,10978.0,2025-12-01,5
+C00739,North America,Enterprise,outbound,10978.0,2025-12-01,5

@@ -1,0 +1,20 @@
+INTERACTIVE DASHBOARD
+=====================
+
+Local (works offline, no install): open dashboard/index.html in any browser.
+  - Executive summary: KPI tiles, MRR trend, MRR bridge, logo churn.
+    Slicers: Region and Plan at signup.
+  - Diagnostics: cohort heatmap, churn by onboarding speed, feature importance,
+    LTV:CAC by channel.
+
+Tableau Public / Power BI Service (to publish a hosted link for recruiters)
+  1. Connect to the tidy extracts in dashboard/data/:
+       kpi_monthly_segmented.csv  (month x region x plan; filterable KPI grain)
+       kpi_monthly.csv            (headline KPI table)
+       cohort_retention.csv       (cohort heatmap)
+       unit_economics_by_channel.csv, onboarding_churn.csv,
+       feature_importance.csv, rfm_segments.csv
+  2. Rebuild the two views described above (Executive on top, Diagnostic below).
+  3. Publish and paste the public URL on the next line.
+
+Published URL: <paste Tableau Public / Power BI link here>
